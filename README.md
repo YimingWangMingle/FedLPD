@@ -83,4 +83,4 @@ We save aggregated results under `outputs/full/results/finish/report/` and retai
 
 In this table, `report/` refers to `outputs/full/results/finish/report/`. We record discounted return, reward per request, and session length, together with the diagnostic and cost measurements. Targets that are not reached within the training budget remain marked `NR`; communication rounds are marked `N/A` for Local RL and Random.
 
-We export numerical data only and do not include plotting code. Readers can use the exported data to create their own figures. This repository does not distribute datasets, trained models, or experimental results.
+We export numerical data only and do not include plotting code. Readers can use the exported data to create their own figures. 
