@@ -132,6 +132,10 @@ For fewer GPUs, adjust `--devices` to list the available devices. Optional `--cp
 
 ## 📊 Experimental Protocol
 
+<p align="center">
+  <img src="assets/fedlpd-experiment-overview.png" width="100%" alt="FedLPD experiment overview: KuaiSim and RecSim with five clients per environment; four GPUs execute 90 comparison runs across three seeds; numerical outputs include tables, trajectories, diagnostics, and training and communication costs.">
+</p>
+
 We evaluate FedLPD in two environments: a **KuaiSim environment built from KuaiRand-1K interaction logs** and a **RecSim environment generated locally**. We adapt the baselines to the shared recommendation environment and use the same task and evaluation protocol within each environment.
 
 | Setting | Configuration |
